@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Banking System Backend
 
 Spring Boot backend for a banking system with JWT authentication, authorization, account management, fund transfers, transaction history, and loan management.
@@ -260,4 +261,5 @@ Unfreeze an account:
 PATCH /api/admin/accounts/{accountId}/unfreeze
 Authorization: Bearer <admin-token>
 ```
+
 
