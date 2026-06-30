@@ -26,19 +26,14 @@ Spring Boot backend for a banking system with JWT authentication, authorization,
 - Admin account freeze/unfreeze controls
 - Admin account inspection with balance, transaction history, and running loans
 
-## Run PostgreSQL
 
-```bash
-docker compose up -d
-```
 
 The default database config is in `src/main/resources/application.properties`.
 
 ```properties
-spring.datasource.url=jdbc:postgresql://localhost:5432/banking_db
-spring.datasource.username=postgres
-spring.datasource.password=0000
-```
+spring.datasource.url=jdbc:mysql://localhost:3306/banking_db
+spring.datasource.username=root
+spring.datasource.password=SRA@1234
 
 ## Run the App
 
